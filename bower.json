@@ -17,5 +17,5 @@
   "homepage": "https://github.com/vvamshi6/angular-m-keyboard",
   "description": "",
   "license": "MIT",
-  "private": true
+  "private": false
 }
