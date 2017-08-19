@@ -1697,6 +1697,7 @@ function useKeyboardDirective($mdKeyboard, $timeout, $animate, $rootScope) {
                             break;
 
                         case "Enter":
+                            $rootScope.$broadcast('Enter_button_event');
                             if (element[0].nodeName.toUpperCase() != 'TEXTAREA') {
                                 $timeout(function () {
                                     angular.element(element[0].form).triggerHandler('submit');
